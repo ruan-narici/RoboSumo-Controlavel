@@ -1,0 +1,5 @@
+void setPinMode() {
+  pinMode(PIN_LED_DATA_RECEIVED, OUTPUT);
+  pinMode(PIN_LED_ROBOT_ONLINE, OUTPUT);
+  pinMode(PIN_LED_ROBOT_CONNECTED, OUTPUT);
+}
