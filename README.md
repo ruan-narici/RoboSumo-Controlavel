@@ -15,13 +15,13 @@ Desenvolver um Robô de competição Sumô que será controlado pelo ESP32 DEVKI
 
 - [x]  Criar esquemático  do projeto
 - [ ]  Criar código em C
-    - [ ]  Rotear WIFI ESP32 (usuário e senha)
-    - [ ]  Criar servidor HTTP
+    - [x]  Rotear WIFI ESP32 (usuário e senha)
+    - [x]  Criar servidor HTTP
         - [ ]  Criar página web para envio de comandos
         - [ ]  Mapear as rotas para o recebimento dos comandos
             - [ ]  Criar comandos
-                - [ ]  Ir para frente
-                - [ ]  Ir para trás
+                - [x]  Ir para frente
+                - [x]  Ir para trás
                 - [ ]  Ir para a esquerda
                 - [ ]  Ir para a direita
                 - [ ]  Diagonal direita frente
