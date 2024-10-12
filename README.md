@@ -7,7 +7,7 @@
 ![Ruan Narici](./assets/fritzing/preview.png)
 
 ### Controle
-![Ruan Narici](./assets/control/preview.png)
+![Ruan Narici](./assets/control/preview.jpg)
 
 
 ## 🔨 Requisitos
