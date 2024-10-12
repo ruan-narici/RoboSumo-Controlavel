@@ -13,9 +13,9 @@ void run() {
   Serial.print("Endereço de IP: ");
   Serial.println(ip); // 192.168.4.1
 
-  sv.begin(); //Inicia o servidor 
-  Serial.println("Servidor online"); //Imprime a mensagem de início
+  sv.begin();
+  Serial.println("Servidor online");
 
-  myLeftStepper.setSpeed(120);
-  myRightStepper.setSpeed(120);
+  myLeftStepper.setSpeed(15);
+  myRightStepper.setSpeed(15);
 }

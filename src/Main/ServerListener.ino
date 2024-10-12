@@ -29,22 +29,18 @@ void httpListener() {
           setLedDataReceived(1);
         }
 
-        if (line.endsWith("GET /esquerda_frente")) {  
-          Serial.println("esquerda_frente");
-          leftMotorGoToFront();
-        }
-        if (line.endsWith("GET /esquerda_costa")) {  
-          Serial.println("esquerda_costa");
-          leftMotorGoToBack();
-        }
-        if (line.endsWith("GET /direita_frente")) { 
-          Serial.println("direita_frente");
-          rightMotorGoToFront();
-        }
-        if (line.endsWith("GET /direita_costa")) { 
-          Serial.println("direita_costa");
-          rightMotorGoToBack();
-        }
+        if (line.endsWith("GET /up")) {
+          goToFront();
+        } 
+        if (line.endsWith("GET /down")) {
+          goToBack();
+        } 
+        if (line.endsWith("GET /left")) {
+          goToLeft();
+        } 
+        if (line.endsWith("GET /right")) {
+          goToRight();
+        }         
       }
     }
     client.stop();  //Para o cliente

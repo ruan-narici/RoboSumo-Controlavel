@@ -1,8 +1,3 @@
-void setLedStatusRobot(bool status) {
-  robot_led_status = status;
-  showLedStatus();
-}
-
 void showLedStatus() {
   if (robot_led_status == 0) {
     digitalWrite(PIN_LED_ROBOT_CONNECTED, LOW);
@@ -13,9 +8,9 @@ void showLedStatus() {
   }
 }
 
-void setLedDataReceived(bool status) {
-  robot_led_data_received = status;
-  showDataReceived();
+void setLedStatusRobot(bool status) {
+  robot_led_status = status;
+  showLedStatus();
 }
 
 void showDataReceived() {
@@ -24,4 +19,9 @@ void showDataReceived() {
   } else {
     digitalWrite(PIN_LED_DATA_RECEIVED, LOW);
   }
+}
+
+void setLedDataReceived(bool status) {
+  robot_led_data_received = status;
+  showDataReceived();
 }
