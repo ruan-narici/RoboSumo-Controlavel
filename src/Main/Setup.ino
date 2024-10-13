@@ -16,6 +16,6 @@ void run() {
   sv.begin();
   Serial.println("Servidor online");
 
-  myLeftStepper.setSpeed(15);
-  myRightStepper.setSpeed(15);
+  myLeftStepper.setSpeed(10);
+  myRightStepper.setSpeed(10);
 }
